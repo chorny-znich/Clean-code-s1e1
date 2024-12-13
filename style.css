@@ -40,7 +40,7 @@ ul {
   padding: 0px;
 }
 li,
-h3 {
+.task__title {
   list-style: none;
 }
 input,
@@ -60,8 +60,8 @@ input,
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+.new-task__title,
+.task__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
