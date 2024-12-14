@@ -39,7 +39,7 @@
   margin: 0;
   padding: 0px;
 }
-li,
+.task-item,
 .task__title {
   list-style: none;
 }
@@ -95,7 +95,7 @@ input[type="text"]:focus {
 }
 
 /* Task list */
-li {
+.task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
