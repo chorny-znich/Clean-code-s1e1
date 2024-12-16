@@ -108,7 +108,7 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.task__status {
   margin: 0 10px;
 }
 li > label {
