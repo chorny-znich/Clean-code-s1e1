@@ -40,7 +40,7 @@ var createNewTaskElement=function(taskString){
   checkBox.type="checkbox";
   checkBox.className = "task-item__status";
   editInput.type="text";
-  editInput.className="task";
+  editInput.className="task task-item__input";
 
   editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
   editButton.className="button button-edit";
@@ -85,7 +85,7 @@ var editTask=function(){
 
   var listItem=this.parentNode;
 
-  var editInput=listItem.querySelector('input[type=text]');
+  var editInput=listItem.querySelector('.task-item__input');
   var label=listItem.querySelector(".task-item__text");
   var editBtn=listItem.querySelector(".button-edit");
   var containsClass=listItem.classList.contains("task-item_edit-mode");
