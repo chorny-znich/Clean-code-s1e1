@@ -111,7 +111,7 @@ li > * {
 .task-item__status {
   margin: 0 10px;
 }
-li > label {
+.task-item_text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -130,7 +130,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-.task__list_completed label {
+.task__list_completed .task-item__text {
   text-decoration: line-through;
   color: #888;
 }
@@ -145,6 +145,6 @@ li > input[type="text"] {
   width: 224px;
 }
 
-.task__list .task-item_edit-mode label {
+.task__list .task-item_edit-mode .task-item__text {
   display: none;
 }
