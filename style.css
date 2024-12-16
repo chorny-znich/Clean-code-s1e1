@@ -108,7 +108,7 @@ li > * {
   vertical-align: middle;
 }
 
-.task__status {
+.task-item__status {
   margin: 0 10px;
 }
 li > label {
